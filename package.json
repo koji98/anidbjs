@@ -5,6 +5,8 @@
   "main": "lib/anidb.js",
   "dependencies": {
     "got": "^11.8.1",
+    "socks-proxy-agent": "^4.0.2",
+    "tor-request": "^3.1.0",
     "xml2js": "^0.4.23"
   },
   "repository": {
@@ -28,7 +30,6 @@
     "assert-diff": "^3.0.2",
     "eslint": "^7.19.0",
     "eslint-plugin-import": "^2.22.1",
-    "mocha": "^8.2.1",
     "should": "^13.2.3"
   }
 }
